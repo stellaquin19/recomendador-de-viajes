@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="sunset2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6d365" />
+      <stop offset="100%" stop-color="#fda085" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="#4a90e2" />
+  <ellipse cx="150" cy="300" rx="180" ry="90" fill="#f7d78c" />
+  <path d="M80 300 C150 220 280 200 380 300" fill="#ffffff" opacity="0.55" />
+  <path d="M420 300 C470 240 520 280 560 300" fill="#ffffff" opacity="0.5" />
+  <text x="40" y="70" fill="#ffffff" font-size="42" font-family="Arial, sans-serif">Italia</text>
+</svg>
