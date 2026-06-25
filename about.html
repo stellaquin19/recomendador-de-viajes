@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Travel Fun</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #1f2937;
+        }
+        header {
+            background: linear-gradient(135deg, #0e243b 0%, #133754 100%);
+            color: #ffffff;
+            padding: 18px 24px;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .brand .logo {
+            width: 40px;
+            height: 40px;
+            border-radius: 12px;
+            background: #ffffff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #0e243b;
+            font-size: 1.1rem;
+        }
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .nav-links a:hover {
+            color: #c7e8ff;
+        }
+        main {
+            padding: 40px 24px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .section-title {
+            margin-bottom: 16px;
+            font-size: 2rem;
+            color: #0e243b;
+        }
+        .company-info {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 28px;
+            box-shadow: 0 15px 40px rgba(15, 23, 42, 0.08);
+            margin-bottom: 32px;
+        }
+        .company-info p {
+            line-height: 1.8;
+            margin: 0;
+        }
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+        .team-card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+        }
+        .team-card h3 {
+            margin-top: 0;
+            margin-bottom: 8px;
+            color: #0e243b;
+        }
+        .team-card p {
+            margin: 0;
+            color: #475569;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="brand">
+                <span class="logo">TB</span>
+                <span>Travel Fun</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="company-info">
+            <h1 class="section-title">Sobre Travel Fun</h1>
+            <p>
+                Travel Fun es una plataforma dedicada a facilitar la planificación de viajes para aventureros modernos.
+                Con recomendaciones basadas en destinos, actividades y tendencias actuales, ayudamos a nuestros usuarios
+to descubrir experiencias inolvidables en cada rincón del mundo.
+            </p>
+            <p>
+                Nuestro objetivo es inspirar viajes únicos, ofrecer consejos confiables y conectar a viajeros con las mejores opciones
+                de alojamiento, experiencias y guías locales. Creemos que viajar es la mejor forma de aprender, relajarse y crear recuerdos.
+            </p>
+        </section>
+        <section>
+            <h2 class="section-title">Conoce a nuestro equipo</h2>
+            <div class="team-grid">
+                <article class="team-card">
+                    <h3>Ana Martínez</h3>
+                    <p>Fundadora y directora general</p>
+                </article>
+                <article class="team-card">
+                    <h3>Carlos Ramírez</h3>
+                    <p>Responsable de producto</p>
+                </article>
+                <article class="team-card">
+                    <h3>Lucía Fernández</h3>
+                    <p>Especialista en experiencias</p>
+                </article>
+                <article class="team-card">
+                    <h3>Javier Gómez</h3>
+                    <p>Desarrollador web</p>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
