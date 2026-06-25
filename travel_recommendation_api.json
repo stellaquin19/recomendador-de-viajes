@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Playa de Canarias",
+        "location": "España",
+        "description": "Disfruta de sol, arena y actividades acuáticas en una playa de aguas cristalinas y paisajes relajantes.",
+        "category": "beach",
+        "imageUrl": "images/destination1.svg"
+    },
+    {
+        "id": 2,
+        "name": "Playa Bahía Esmeralda",
+        "location": "México",
+        "description": "Relájate en una playa de arena dorada, perfecto para natación y paseos al atardecer.",
+        "category": "beach",
+        "imageUrl": "images/destination2.svg"
+    },
+    {
+        "id": 3,
+        "name": "Templo de Angkor Wat",
+        "location": "Camboya",
+        "description": "Visita el templo ancestral y descubre una de las maravillas sagradas más famosas del mundo.",
+        "category": "temple",
+        "imageUrl": "images/destination3.svg"
+    },
+    {
+        "id": 4,
+        "name": "Templo Dorado",
+        "location": "Tailandia",
+        "description": "Explora el templo iluminado y su arquitectura dorada en el corazón de la ciudad.",
+        "category": "temple",
+        "imageUrl": "images/destination4.svg"
+    },
+    {
+        "id": 5,
+        "name": "Italia",
+        "location": "Italia",
+        "description": "Explora este país lleno de historia, arte, paisajes y gastronomía inigualable.",
+        "category": "country",
+        "imageUrl": "images/destination5.svg"
+    },
+    {
+        "id": 6,
+        "name": "Japón",
+        "location": "Japón",
+        "description": "Descubre un país de tradición, tecnología y paisajes extraordinarios en cada región.",
+        "category": "country",
+        "imageUrl": "images/destination6.svg"
+    }
+]
